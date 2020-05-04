@@ -5,7 +5,7 @@ seo-title: Krav för medlemskap
 title: Krav för medlemskap
 uuid: 4295fa4e-1b9e-4323-bb79-48e548ca1167
 translation-type: tm+mt
-source-git-commit: 581167e0a0617aa04621faf840920549b9baa94b
+source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
 
 ---
 
@@ -35,7 +35,7 @@ Sökande måste använda minst en av följande [!DNL Adobe]lösningar:
 
 **Kärntjänster**
 
-Sökande måste implementera [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+Sökande måste implementera [Experience Cloud ID Service](https://docs.adobe.com/content/help/en/id-service/using/home.html).
 
 ## Krav för Adobes kodbibliotek {#section-931a3fca1ce54afd90b88ba032e75f05}
 
@@ -47,11 +47,11 @@ I följande tabell visas de lägsta versionerna av kodbiblioteken eller SDK:er s
 
 **AppMeasurement (Flash)**
 
-Kräver version 4.1. Se [AppMeasurement for Flash, Flex och AIR](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/flash/).
+Kräver version 4.1. Se [AppMeasurement for Flash, Flex och AIR](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md).
 
 **AppMeasurement (JavaScript)**
 
-Kräver version 1.5.4. Se [AppMeasurement for Flash, Flex och AIR](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/flash/).
+Kräver version 1.5.4. Se [AppMeasurement for Flash, Flex och AIR](https://docs.adobe.com/content/help/en/analytics/implementation/js/migrate-from-hcode.html).
 
 **SDK för mobiler**
 
@@ -60,12 +60,12 @@ Lägsta krav för mobil SDK:
 * Android version 4.8.3.
 * iOS version 4.8.5.
 
-SDK-koden måste vara aktiverad för [!DNL Experience Cloud] ID-tjänsten. Aktivera och hämta den senaste SDK-koden för varje app i ditt [Adobe Mobile Services](https://mobilemarketing.adobe.com/) -konto. Se [Konfigurera tjänstalternativ](https://marketing.adobe.com/resources/help/en_US/mobile/?f=t_config_visitor.html)för SDK Visitor ID.
+SDK-koden måste vara aktiverad för [!DNL Experience Cloud] ID-tjänsten. Aktivera och hämta den senaste SDK-koden för varje app i ditt [Adobe Mobile Services](https://mobilemarketing.adobe.com/) -konto. Se [Konfigurera tjänstalternativ](https://docs.adobe.com/content/help/en/mobile-services/using/manage-app-settings-ug/configuring-app/t-config-visitor.html)för SDK Visitor ID.
 
 Använd rätt `visitorSyncIdentifier` metod för varje SDK. Se:
 
-* [Android Experience Cloud ID-tjänstmetoder](https://marketing.adobe.com/resources/help/en_US/mobile/android/mc_methods.html)
-* [Tjänstmetoder för iOS Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=mc_methods.html)
+* [Android Experience Cloud ID-tjänstmetoder](https://docs.adobe.com/content/help/en/mobile-services/android/experience-cloud-android/mcvid.html)
+* [Tjänstmetoder för iOS Experience Cloud ID](https://docs.adobe.com/content/help/en/mobile-services/ios/exp-cloud-ios/mcvid.html)
 
 **VisitorAPI.js**
 
