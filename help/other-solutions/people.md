@@ -5,7 +5,7 @@ seo-title: Personmått
 title: Personmått
 uuid: 8e731779-044d-4d31-a19a-f579a9c8c471
 translation-type: tm+mt
-source-git-commit: c1d0bc05d3f211fa3e899e98fbcc908be7399031
+source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
 
 ---
 
@@ -30,19 +30,19 @@ Personmåttet är antalet personer (eller grupper av enheter) baserat på Adobes
   </tr> 
   <tr> 
    <td colname="col1"> Måttbehörigheter </td> 
-   <td colname="col2"> <p>Du kan bara använda personmåttet om du har beviljats åtkomst till det. Administratörer kan<a href="https://marketing.adobe.com/resources/help/en_US/reference/groups-metrics.html" format="html" scope="external"> anpassa metadatabehörigheter</a> i administratörsverktygen. </p> </td> 
+   <td colname="col2"> <p>Du kan bara använda personmåttet om du har beviljats åtkomst till det. Administratörer kan<a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/customize-report-access/groups-metrics.html" format="html" scope="external"> anpassa metadatabehörigheter</a> i administratörsverktygen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Mappa till IMS-organisation </td> 
-   <td colname="col2"> <p>Personmåttet aktiveras för alla rapportsviter som är <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html" format="html" scope="external"> mappade till en IMSORG</a>. </p> </td> 
+   <td colname="col2"> <p>Personmåttet aktiveras för alla rapportsviter som är <a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html" format="html" scope="external"> mappade till en IMSORG</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analysprojekt/verktyg </p> </td> 
-   <td colname="col2"> <p>Använd personmåttet i <span class="wintitle"> Analysis Workspace</span>, <span class="wintitle"> Ad Hoc Analysis</span>, Report Builder <span class="wintitle"></span>och via API:t. Du kan använda den var du vill med de unika besökarvärdena, inklusive beräknade värden. </p> <p>Du kan till exempel skapa ett intäktsmått per person för att ersätta ett intäktsmått per unik besökarstatistik. </p> <p>En <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/starter_projects.html" format="html" scope="external"> personprojektmall</a> är tillgänglig för att komma igång med personmåttet i Analysis Workspace. </p> </td> 
+   <td colname="col2"> <p>Använd personmåttet i <span class="wintitle"> Analysis Workspace</span>, <span class="wintitle"> Ad Hoc Analysis</span>, Report Builder <span class="wintitle"></span>och via API:t. Du kan använda den var du vill med de unika besökarvärdena, inklusive beräknade värden. </p> <p>Du kan till exempel skapa ett intäktsmått per person för att ersätta ett intäktsmått per unik besökarstatistik. </p> <p>En <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html" format="html" scope="external"> personprojektmall</a> är tillgänglig för att komma igång med personmåttet i Analysis Workspace. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aktivera robotregler </p> </td> 
-   <td colname="col2"> <p>Adobe rekommenderar att du aktiverar <a href="https://marketing.adobe.com/resources/help/en_US/reference/bot_rules.html" format="html" scope="external"> Punktregler</a>, särskilt när du använder personmåttet. </p> <p>När en robot crawlar din webbplats ökar antalet unika besökare på ett artificiellt sätt. Genom att ta bort robottrafiken från rapportsviten får du en exaktare mätning av aktiviteten på dina digitala resurser, både i unika besökare och i personvyn. </p> <p>Om du vill göra det går du till <span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Report Suites</span>. Välj rätt rapportserie och gå sedan till <span class="uicontrol"> Redigera inställningar</span> &gt; <span class="uicontrol"> Allmänt</span> &gt; <span class="uicontrol"> PUNKTregler</span>. </p> </td> 
+   <td colname="col2"> <p>Adobe rekommenderar att du aktiverar <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-rules.html" format="html" scope="external"> Punktregler</a>, särskilt när du använder personmåttet. </p> <p>När en robot crawlar din webbplats ökar antalet unika besökare på ett artificiellt sätt. Genom att ta bort robottrafiken från rapportsviten får du en exaktare mätning av aktiviteten på dina digitala resurser, både i unika besökare och i personvyn. </p> <p>Om du vill göra det går du till <span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Report Suites</span>. Välj rätt rapportserie och gå sedan till <span class="uicontrol"> Redigera inställningar</span> &gt; <span class="uicontrol"> Allmänt</span> &gt; <span class="uicontrol"> PUNKTregler</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Segmentering </p> </td> 
@@ -134,7 +134,7 @@ Endast antalet personer som är kvalificerade i båda segmenten *`using a single
 
 Du bör inte heller använda operatorn *`Or`* i den här situationen. Om du gör det skulle antalet personer som såg det ena eller det andra räknas, och det går inte att räkna hur många som kvalificerar sig för båda segmenten.
 
-Mer information finns i [Skapa segment](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html) i segmenteringshjälpen.
+Mer information finns i [Skapa segment](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html) i segmenteringshjälpen.
 
 ## Enhetstyper {#section-8ab378c84ff34574b9c20fecb3848a86}
 
@@ -150,7 +150,7 @@ Device Co-op kräver att dina digitala egenskaper är instrumenterade med tjäns
 mcdc-people-metric-apply.xml
 -->
 
-Skapa ett [projekt](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/t_freeform_project.html)i Analysis Workspace och dra sedan **[!UICONTROL People]** måttet till projekttabellen:
+Skapa ett [projekt](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html)i Analysis Workspace och dra sedan **[!UICONTROL People]** måttet till projekttabellen:
 
 ![](assets/people-metric.png)
 
