@@ -5,7 +5,7 @@ seo-title: Audience Manager - profillänk
 title: Audience Manager - profillänk
 uuid: cebf40e5-9f0c-4e59-b4a7-73696fa2dadc
 translation-type: tm+mt
-source-git-commit: c1d0bc05d3f211fa3e899e98fbcc908be7399031
+source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
 
 ---
 
@@ -16,4 +16,4 @@ Enhetsdiagramdata är tillgängliga i profillänken som ett alternativ för samm
 
 Profile Link fungerar med datakällor som fungerar på olika enheter för att identifiera och samla in egenskaper för autentiserade webbplatsbesökare. Det innehåller funktionen Regler för profilsammanslagning. Med reglerna för profilsammanslagning får du kontroll över de datauppsättningar som används för segmentering och kan rikta sig till en person exakt på flera enheter.
 
-Mer information finns i dokumentationen [för](https://marketing.adobe.com/resources/help/en_US/aam/profile-link-intro.html) profillänken.
+Mer information finns i dokumentationen [för](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html) profillänken.
