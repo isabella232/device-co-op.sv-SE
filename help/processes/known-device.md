@@ -6,6 +6,9 @@ title: Kända enheter
 uuid: 53c21105-45b1-4bed-a473-d3ccc4bae965
 translation-type: tm+mt
 source-git-commit: 4f972a4ae3f0c5ee11b21876bd8a6966cad90371
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 1%
 
 ---
 
