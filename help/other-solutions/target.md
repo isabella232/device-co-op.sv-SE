@@ -6,6 +6,9 @@ title: Mål - A/B-tester, multivariata tester och målinriktad upplevelse
 uuid: c1b478a4-812e-41ee-913f-29666c5c7ec4
 translation-type: tm+mt
 source-git-commit: c1d0bc05d3f211fa3e899e98fbcc908be7399031
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ Lär dig hur du använder Device Co-op-data i Adobe Target-aktiviteter.
 
 Du kan använda Device Co-op-data i A/B-tester, multivariata tester (MVT) och aktiviteter för målinriktning av upplevelser. Alternativet Device Co-op är tillgängligt när aktiviteter skapas på [!DNL Goals & Settings] sidan i det guidade arbetsflödet i [!DNL Target] tre steg.
 
-Du kan inte använda Device Co-op-data i automatiserade personaliseringsaktiviteter, rekommendationsaktiviteter eller aktiviteter med [!DNL Adobe Analytics] som rapportkälla ( [!DNL Target] och [!DNL Analytics] integrering, kallas A4T).
+Du kan inte använda Device Co-op-data i Automated Personalization-aktiviteter, rekommendationsaktiviteter eller -aktiviteter [!DNL Adobe Analytics] som rapportkälla ( [!DNL Target] och [!DNL Analytics] integrering, kallas A4T).
 
 >[!NOTE]
 >
