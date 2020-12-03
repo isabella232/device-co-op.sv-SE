@@ -1,16 +1,19 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Adobe Experience Cloud Device Co-op-dokumentation
-title: Adobe Experience Cloud Device Co-op-dokumentation
+seo-title: Adobe Experience Cloud Device Co-op Documentation
+title: Adobe Experience Cloud Device Co-op Documentation
 uuid: ec951e20-8736-4d42-b5e5-3e9abfc6820d
 translation-type: tm+mt
 source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
+workflow-type: tm+mt
+source-wordcount: '148'
+ht-degree: 39%
 
 ---
 
 
-# Adobe Experience Cloud Device Co-op-dokumentation{#adobe-experience-cloud-device-co-op-documentation}
+# Adobe Experience Cloud Device Co-op Documentation{#adobe-experience-cloud-device-co-op-documentation}
 
 Det [!DNL Adobe Experience Cloud] är [!DNL Device Co-op] ett digitalt kooperativ där deltagande kunder delar information om enhetslänkar. Dessa data [!DNL Experience Cloud] bearbetas [!DNL Device Co-op] till att bilda enhetskluster. Dessa kluster representerar en grupp enheter som används av en okänd person. De delar dessa kluster bland sina medlemmar, vilket hjälper dem att leverera värdefulla och enhetliga upplevelser på olika enheter till sina kunder. [!DNL Device Co-op]
 
@@ -27,9 +30,9 @@ Det [!DNL Adobe Experience Cloud] är [!DNL Device Co-op] ett digitalt kooperati
     </ul> </td> 
    <td colname="col2"> <p> <b>Versionsinformation</b> </p> 
     <ul id="ul_713F3E9DF0F84FE5981AC63D05948864"> 
-     <li id="li_09C1CD15823E4AD7856CE40BE848E03F">I den senaste versionsinformationen <a href="https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html" format="https" scope="external"> om</a> Experience Cloud finns nya funktioner och korrigeringar. </li> 
-     <li id="li_EA594E939ED14D7780178DEA8E1AED64">Länkarna <a href="https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html" format="https" scope="external"> till den</a> föregående versionsinformationen innehåller äldre information. </li> 
-    </ul> <p> <b>Experience Cloud-resurser</b> </p> 
+     <li id="li_09C1CD15823E4AD7856CE40BE848E03F">Se den senaste <a href="https://docs.adobe.com/content/help/sv-SE/release-notes/experience-cloud/current.html" format="https" scope="external"> versionsinformationen för Experience Cloud</a> angående nya funktioner och korrigeringar. </li> 
+     <li id="li_EA594E939ED14D7780178DEA8E1AED64">See the <a href="https://docs.adobe.com/content/help/sv-SE/release-notes/experience-cloud/current.html" format="https" scope="external"> previous release notes links</a> for older announcements. </li> 
+    </ul> <p> <b>Experience Cloud-resurser </b> </p> 
     <ul id="ul_E30EC96BDC624B5591F0470D430B7F41"> 
      <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"> <a href="http://www.adobe.com/marketing-cloud.html" scope="external" format="http"> Adobe Experience Cloud</a> </li> 
      <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="http://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Adobe Training and Tutorials</a> </li> 
