@@ -6,6 +6,9 @@ title: Deterministiska och sannolika länkar
 uuid: 00693a0a-f73d-460d-84a4-b7c745b9fe0a
 translation-type: tm+mt
 source-git-commit: c1d0bc05d3f211fa3e899e98fbcc908be7399031
+workflow-type: tm+mt
+source-wordcount: '866'
+ht-degree: 0%
 
 ---
 
@@ -14,13 +17,13 @@ source-git-commit: c1d0bc05d3f211fa3e899e98fbcc908be7399031
 
 Hur Device Graph analyserar deterministiska och sannolika data för att skapa en karta som länkar samman enheter.
 
-I [!DNL Device Graph]det bygger interna processer en identitetshierarki som mappar enheter och kopplar dem till enskilda, anonyma personer. Diagrammets utdata innehåller länkar mellan olika enheter som du kan använda för målinriktning tillsammans med data som visas i utvalda Experience Cloud-lösningar. De Adobe-lösningar som fungerar med [!DNL Device Graph] data är Analytics, Audience Manager, Media Optimizer och Target.
+I [!DNL Device Graph]det bygger interna processer en identitetshierarki som mappar enheter och kopplar dem till enskilda, anonyma personer. Diagrammets utdata innehåller länkar mellan olika enheter som du kan använda för att ange mål tillsammans med data som visas i vissa Experience Cloud-lösningar. Bland Adobe-lösningarna som fungerar med [!DNL Device Graph] data finns Analytics, Audience Manager, Media Optimizer och Target.
 
 Analyserar [!DNL Device Graph] deterministiska och sannolika data för att skapa en karta som länkar samman enheter. Deterministiska data länkar samman enheter baserat på hash-kodad inloggningsinformation. Sannolikheten att data länkar samman enheter baserat på information som IP-adresser och andra metadata. De [!DNL Device Graph] associerar de länkade enhetskluster med en anonym person. Med dessa anslutningar kan digitala marknadsförare nå människor istället för enheter. I [!DNL Device Graph]är ägaren till en enhet en anonym representation av en person i verkligheten. Både deterministiska och sannolika länkar hjälper till att bygga upp en struktur för användaridentitet.
 
 >[!NOTE]
 >
->I Adobe Experience Cloud Device Co-op har termer som *enhet*, *person* och *identitet* en specifik betydelse. Till exempel kan *enheten* referera till fysisk maskinvara som en telefon eller surfplatta och de program som körs på den maskinvaran. Definitioner finns i [ordlistan](../glossary.md#glossgroup-0f47d7fbd76c4759801f565f341a386c) .
+>I Adobe Experience Cloud Device Co-op har termer som *device*, *person* och *identitet* en specifik betydelse. Till exempel kan *enheten* referera till fysisk maskinvara som en telefon eller surfplatta och de program som körs på den maskinvaran. Definitioner finns i [ordlistan](../glossary.md#glossgroup-0f47d7fbd76c4759801f565f341a386c) .
 
 ## Vad är länkar? {#section-2df4c6f01eba49369993146df0661f13}
 
