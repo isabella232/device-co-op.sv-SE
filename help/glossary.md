@@ -6,6 +6,9 @@ title: Ordlista för Device Co-op-termer
 uuid: 55a8b7f0-78bd-4ed3-b90c-1e9acab6b866
 translation-type: tm+mt
 source-git-commit: c1d0bc05d3f211fa3e899e98fbcc908be7399031
+workflow-type: tm+mt
+source-wordcount: '324'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ Ordlista med termer som används i Device Co-op.
 
 **Adobe Experience Cloud Device Co-op**
 
-Programmet är en grupp varumärken, alla Adobe-kunder, som gått med på att dela data om vilka enheter som konsumenter använder för att bättre identifiera en individ på olika enheter och leverera mer meningsfulla och enhetliga upplevelser. Den teknik som blir resultatet blir en kärntjänst i Experience Cloud och hjälper marknadsförare att identifiera kunder/konsumenter på ett enhetligt sätt i alla kanaler, lösningar, upplevelser och enheter.
+Programmet är en grupp varumärken, alla Adobe-kunder, som har gått med på att dela data om vilka enheter konsumenterna använder för att bättre identifiera en individ på olika enheter och leverera mer meningsfulla och enhetliga upplevelser. Den teknik som blir resultatet kommer att bli en av Experience Cloud:s kärntjänster och kommer att hjälpa marknadsförare att identifiera kunder/konsumenter på ett enhetligt sätt i alla kanaler, i alla lösningar, på alla upplevelser och på alla enheter.
 
 **Deterministisk länkning**
 
