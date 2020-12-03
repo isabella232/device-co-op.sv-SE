@@ -6,6 +6,9 @@ title: Länkdelning i enhetsdiagram
 uuid: 6c7202f0-c6d9-48a4-82ad-ee57d7a518a0
 translation-type: tm+mt
 source-git-commit: c1d0bc05d3f211fa3e899e98fbcc908be7399031
+workflow-type: tm+mt
+source-wordcount: '557'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: c1d0bc05d3f211fa3e899e98fbcc908be7399031
 
 Om länkdelning i enhetsdiagrammet.
 
-De delar [!DNL Device Graph] deterministiska och sannolika länkar med olika medlemmar i Adobe Experience Cloud Device Co-op. Länkdelning är det som gör det [!DNL Device Co-op] så kraftfullt. Det utökar det som varje medlem känner till om enheterna som är kopplade till en anonym person, men bara om du har sett minst en av enheterna för den anonyma personen tidigare.
+De delar deterministiska och sannolika länkar [!DNL Device Graph] med olika medlemmar i Adobe Experience Cloud Device Co-op. Länkdelning är det som gör det [!DNL Device Co-op] så kraftfullt. Det utökar det som varje medlem känner till om enheterna som är kopplade till en anonym person, men bara om du har sett minst en av enheterna för den anonyma personen tidigare.
 
 ## Sammanfattningsgranskning av enhetsdiagram {#section-7858e9f61b5644c981ffb53626fcc19d}
 
