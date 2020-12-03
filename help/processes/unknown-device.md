@@ -6,6 +6,9 @@ title: Okända enheter
 uuid: 18e69dad-bdb3-4ac1-a690-374aba1aa0a6
 translation-type: tm+mt
 source-git-commit: 4f972a4ae3f0c5ee11b21876bd8a6966cad90371
+workflow-type: tm+mt
+source-wordcount: '249'
+ht-degree: 0%
 
 ---
 
