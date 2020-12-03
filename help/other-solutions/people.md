@@ -1,18 +1,21 @@
 ---
-description: Personmåttet är antalet personer (eller grupper av enheter) baserat på Adobes Device Graph. Du kan använda personmåttet för att identifiera besökare på olika enheter i Analysis Workspace.
-seo-description: Personmåttet är antalet personer (eller grupper av enheter) baserat på Adobes Device Graph. Du kan använda personmåttet för att identifiera besökare på olika enheter i Analysis Workspace.
+description: Personmåttet är antalet personer (eller grupper av enheter) baserat på Adobe Device Graph. Du kan använda personmåttet för att identifiera besökare på olika enheter i Analysis Workspace.
+seo-description: Personmåttet är antalet personer (eller grupper av enheter) baserat på Adobe Device Graph. Du kan använda personmåttet för att identifiera besökare på olika enheter i Analysis Workspace.
 seo-title: Personmått
 title: Personmått
 uuid: 8e731779-044d-4d31-a19a-f579a9c8c471
 translation-type: tm+mt
 source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
+workflow-type: tm+mt
+source-wordcount: '1408'
+ht-degree: 1%
 
 ---
 
 
 # Personmått{#people-metric}
 
-Personmåttet är antalet personer (eller grupper av enheter) baserat på Adobes Device Graph. Du kan använda personmåttet för att identifiera besökare på olika enheter i Analysis Workspace.
+Personmåttet är antalet personer (eller grupper av enheter) baserat på Adobe Device Graph. Du kan använda personmåttet för att identifiera besökare på olika enheter i Analysis Workspace.
 
 ## Krav och överväganden för personmått {#section-34551d0435fb4b3cb3fad736b7961541}
 
@@ -26,7 +29,7 @@ Personmåttet är antalet personer (eller grupper av enheter) baserat på Adobes
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Device Co-op </p> </td> 
-   <td colname="col2"> <p> Om du vill använda personmåttet blir du medlem i <a href="http://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html" format="html" scope="external"> Adobe Experience Cloud Device Co-op</a>. Samarbetet identifierar en persons flera enheter (eller Experience Cloud ID). Analytics utnyttjar denna information för att statistiskt hämta antalet personer som interagerar med ett varumärke. Mätvärdet ligger inom 5 %. </p> <p><b>Områden</b>: Device Co-op är för närvarande endast tillgängligt i USA och Kanada. När du utvärderar personmätningen bör du därför tillämpa ett segment i analysen som filtrerar data enbart för USA och Kanada. </p> <p>Varje vecka beräknar Device Graph en ny version av co-op och publicerar den för användning. På tisdagar samlar systemet in de senaste data och publicerar en uppdaterad version av diagrammet. Experience Cloud-lösningarna använder sedan den senaste versionen av diagrammet. För Analytics är ändringarna inlästa på onsdagar och bearbetningen av ändringarna tar vanligtvis mellan 1 och 2 arbetsdagar. </p> <p> <p>Viktigt:  När diagrammet uppdateras varje vecka kan det påverka personmåttet historiskt. Med andra ord kan antalet personer ändras över tiden när diagrammet läses och uppdateras. Om du t.ex. kör en rapport i dag som räknar personer förra månaden och sedan kör samma rapport en vecka efter att diagrammet har uppdaterats, kan det historiska antalet personer ändras något. </p> </p> </td> 
+   <td colname="col2"> <p> Om du vill använda personmåttet blir du medlem i <a href="http://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html" format="html" scope="external"> Adobe Experience Cloud Device Co-op</a>. Samarbetet identifierar en persons flera enheter (eller Experience Cloud-ID). Analytics utnyttjar denna information för att statistiskt hämta antalet personer som interagerar med ett varumärke. Mätvärdet ligger inom 5 %. </p> <p><b>Områden</b>: Device Co-op är för närvarande endast tillgängligt i USA och Kanada. När du utvärderar personmätningen bör du därför tillämpa ett segment i analysen som filtrerar data enbart för USA och Kanada. </p> <p>Varje vecka beräknar Device Graph en ny version av co-op och publicerar den för användning. På tisdagar samlar systemet in de senaste data och publicerar en uppdaterad version av diagrammet. Experience Cloud-lösningarna använder sedan den senaste versionen av diagrammet. För Analytics är ändringarna inlästa på onsdagar och bearbetningen av ändringarna tar vanligtvis mellan 1 och 2 arbetsdagar. </p> <p> <p>Viktigt:  När diagrammet uppdateras varje vecka kan det påverka personmåttet historiskt. Med andra ord kan antalet personer ändras över tiden när diagrammet läses och uppdateras. Om du t.ex. kör en rapport i dag som räknar personer förra månaden och sedan kör samma rapport en vecka efter att diagrammet har uppdaterats, kan det historiska antalet personer ändras något. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Måttbehörigheter </td> 
@@ -34,11 +37,11 @@ Personmåttet är antalet personer (eller grupper av enheter) baserat på Adobes
   </tr> 
   <tr> 
    <td colname="col1"> Mappa till IMS-organisation </td> 
-   <td colname="col2"> <p>Personmåttet aktiveras för alla rapportsviter som är <a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html" format="html" scope="external"> mappade till en IMSORG</a>. </p> </td> 
+   <td colname="col2"> <p>Personmåttet aktiveras för alla rapportsviter som är <a href="https://docs.adobe.com/content/help/sv-SE/core-services/interface/about-core-services/report-suite-mapping.html" format="html" scope="external"> mappade till en IMSORG</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analysprojekt/verktyg </p> </td> 
-   <td colname="col2"> <p>Använd personmåttet i <span class="wintitle"> Analysis Workspace</span>, <span class="wintitle"> Ad Hoc Analysis</span>, Report Builder <span class="wintitle"></span>och via API:t. Du kan använda den var du vill med de unika besökarvärdena, inklusive beräknade värden. </p> <p>Du kan till exempel skapa ett intäktsmått per person för att ersätta ett intäktsmått per unik besökarstatistik. </p> <p>En <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html" format="html" scope="external"> personprojektmall</a> är tillgänglig för att komma igång med personmåttet i Analysis Workspace. </p> </td> 
+   <td colname="col2"> <p>Använd personmåttet i <span class="wintitle"> Analysis Workspace</span>, <span class="wintitle"> Ad Hoc Analysis</span>, <span class="wintitle"> Report Builder</span>och via API:t. Du kan använda den var du vill med de unika besökarvärdena, inklusive beräknade värden. </p> <p>Du kan till exempel skapa ett intäktsmått per person för att ersätta ett intäktsmått per unik besökarstatistik. </p> <p>Det finns en projektmall <a href="https://docs.adobe.com/content/help/sv-SE/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html" format="html" scope="external"> för</a> personer som du kan använda för att komma igång med personmätningen i Analysis Workspace. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aktivera robotregler </p> </td> 
@@ -84,7 +87,7 @@ Jämför människor och unika besökare sida vid sida:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Folk </p> </td> 
+   <td colname="col1"> <p>Personer </p> </td> 
    <td colname="col2"> <p>Personmätningen bygger på tanken att konsumenterna interagerar med ert varumärke med hjälp av flera enheter. Ju mer du segmenterar eller segmenterar data, desto mindre är chansen att samma person använder flera enheter inom det segmentet med data. </p> </td> 
   </tr> 
   <tr> 
@@ -138,11 +141,11 @@ Mer information finns i [Skapa segment](https://docs.adobe.com/content/help/en/a
 
 ## Enhetstyper {#section-8ab378c84ff34574b9c20fecb3848a86}
 
-Mätarna Device Co-op och People fungerar bäst i Adobe Analytics när rapportsviten innehåller data från flera olika typer av enheter. Om du till exempel kombinerar webb- och appdata i samma rapportsvit blir personmätningen mer kraftfull och effektiv. Ju mer enhetsövergripande data finns, desto större chans att flera unika besökare grupperas tillsammans som en person.
+Mätarna Device Co-op och People fungerar bäst i Adobe Analytics när rapportsviten innehåller data från flera olika enhetstyper. Om du till exempel kombinerar webb- och appdata i samma rapportsvit blir personmätningen mer kraftfull och effektiv. Ju mer enhetsövergripande data finns, desto större chans att flera unika besökare grupperas tillsammans som en person.
 
 ![](assets/people-device-types.png)
 
-## Tjänsttäckning för Experience Cloud ID {#section-bbf0098cac2e467289e7a644a1dea05c}
+## Experience Cloud ID-tjänstens täckning {#section-bbf0098cac2e467289e7a644a1dea05c}
 
 Device Co-op kräver att dina digitala egenskaper är instrumenterade med tjänsten Experience Cloud ID (MCID). Om data i rapportsviten innehåller ett stort antal besökare utan ett MCID, minskar effekten av Device Co-op och personmätningen.
 
@@ -150,7 +153,7 @@ Device Co-op kräver att dina digitala egenskaper är instrumenterade med tjäns
 mcdc-people-metric-apply.xml
 -->
 
-Skapa ett [projekt](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html)i Analysis Workspace och dra sedan **[!UICONTROL People]** måttet till projekttabellen:
+I Analysis Workspace skapar du ett [projekt](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html)och drar sedan **[!UICONTROL People]** måttet till projekttabellen:
 
 ![](assets/people-metric.png)
 
