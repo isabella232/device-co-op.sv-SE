@@ -5,6 +5,9 @@ seo-title: Översikt över enhetsdiagram
 title: Översikt över enhetsdiagram
 translation-type: tm+mt
 source-git-commit: c4c4d5f795f974297ba3952807329d92e51ccaad
+workflow-type: tm+mt
+source-wordcount: '29'
+ht-degree: 0%
 
 ---
 
