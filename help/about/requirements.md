@@ -5,9 +5,9 @@ seo-title: Krav för medlemskap
 title: Krav för medlemskap
 uuid: 4295fa4e-1b9e-4323-bb79-48e548ca1167
 translation-type: tm+mt
-source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
+source-git-commit: 1ab7be570ea63645c6d6065341d31bf170f79715
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '434'
 ht-degree: 4%
 
 ---
@@ -19,13 +19,11 @@ Ditt företag måste uppfylla dessa minimistandarder innan du kan börja använd
 
 ## Krav {#section-9cbcee3c7b4e4c49b4c0e2b26aec5fe9}
 
-Tala med din [!DNL Adobe representative to get started]. Om du inte har någon Adobe-representant kan du gå till [Device Co-op-medlemsportalen](http://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) och fylla i onlineformuläret.
-
-Adobe förbehåller sig rätten att neka alla potentiella kundmedlemskap till Experience Cloud Device Co-op om Adobe fastställer att en presumtiv kunds deltagande i Device Co-op kan (1) bryta mot tillämplig lag. eller (2) medföra en väsentlig risk för säkerheten eller verksamheten i Adobe eller för någon av dess kunder.
+Tala med din [!DNL Adobe representative to get started]. Adobe förbehåller sig rätten att neka alla potentiella kundmedlemskap till Experience Cloud Device Co-op om Adobe fastställer att en presumtiv kunds deltagande i Device Co-op kan (1) bryta mot tillämplig lag. eller (2) medföra en väsentlig risk för säkerheten eller verksamheten i Adobe eller för någon av dess kunder.
 
 ## Krav för Experience Cloud {#section-76218a50385d43e6b9323e49f598394a}
 
-Du måste vara aktiverad för [!DNL Adobe Experience Cloud] och använda följande lösningar och tjänster för att delta i samarbetet.
+Du måste vara aktiverad för [!DNL Adobe Experience Cloud] och använda följande lösningar och tjänster för att delta i samspelet.
 
 **Lösningar**
 
@@ -38,11 +36,11 @@ Sökande måste använda minst en av följande [!DNL Adobe]lösningar:
 
 **Kärntjänster**
 
-Sökande måste implementera [Experience Cloud ID-tjänsten](https://docs.adobe.com/content/help/sv-SE/id-service/using/home.html).
+Sökande måste implementera tjänsten [Experience Cloud ID](https://docs.adobe.com/content/help/sv-SE/id-service/using/home.html).
 
-## Adobe krav för kodbibliotek {#section-931a3fca1ce54afd90b88ba032e75f05}
+## Krav för Adobe-kodbibliotek {#section-931a3fca1ce54afd90b88ba032e75f05}
 
-I följande tabell visas de lägsta versionerna av kodbiblioteken eller SDK:er som används av olika [!DNL Experience Cloud] lösningar och tjänster. Om du använder någon av dessa koder och vill delta i Device Co-op måste du se till att dessa minimikrav uppfylls.
+I följande tabell visas de lägsta versionerna av kodbiblioteken eller SDK:er som används av olika [!DNL Experience Cloud]-lösningar och -tjänster. Om du använder någon av dessa koder och vill delta i Device Co-op måste du se till att dessa minimikrav uppfylls.
 
 >[!TIP]
 >
@@ -50,11 +48,11 @@ I följande tabell visas de lägsta versionerna av kodbiblioteken eller SDK:er s
 
 **AppMeasurement (Flash)**
 
-Kräver version 4.1. Se [AppMeasurement för Flash, Flex och AIR](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md).
+Kräver version 4.1. Se [AppMeasurement for Flash, Flex, and AIR](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md).
 
 **AppMeasurement (JavaScript)**
 
-Kräver version 1.5.4. Se [AppMeasurement för Flash, Flex och AIR](https://docs.adobe.com/content/help/en/analytics/implementation/js/migrate-from-hcode.html).
+Kräver version 1.5.4. Se [AppMeasurement for Flash, Flex, and AIR](https://docs.adobe.com/content/help/en/analytics/implementation/js/migrate-from-hcode.html).
 
 **SDK för mobiler**
 
@@ -63,9 +61,9 @@ Lägsta krav för mobil SDK:
 * Android version 4.8.3.
 * iOS version 4.8.5.
 
-SDK-koden måste vara aktiverad för [!DNL Experience Cloud] ID-tjänsten. Aktivera och hämta den senaste SDK-koden för varje app i ditt [Adobe Mobile Services](https://mobilemarketing.adobe.com/) -konto. Se [Konfigurera tjänstalternativ](https://docs.adobe.com/content/help/en/mobile-services/using/manage-app-settings-ug/configuring-app/t-config-visitor.html)för SDK Visitor ID.
+SDK-koden måste vara aktiverad för ID-tjänsten [!DNL Experience Cloud]. Aktivera och hämta den senaste SDK-koden för varje app i ditt [Adobe Mobile Services](https://mobilemarketing.adobe.com/)-konto. Se [Konfigurera alternativ för tjänsten SDK Visitor ID](https://docs.adobe.com/content/help/en/mobile-services/using/manage-app-settings-ug/configuring-app/t-config-visitor.html).
 
-Använd rätt `visitorSyncIdentifier` metod för varje SDK. Se:
+För varje SDK använder du lämplig `visitorSyncIdentifier`-metod som passar dina behov. Se:
 
 * [Tjänstmetoder för Android Experience Cloud ID](https://docs.adobe.com/content/help/en/mobile-services/android/experience-cloud-android/mcvid.html)
 * [Tjänstmetoder för iOS Experience Cloud ID](https://docs.adobe.com/content/help/en/mobile-services/ios/exp-cloud-ios/mcvid.html)
@@ -74,7 +72,7 @@ Använd rätt `visitorSyncIdentifier` metod för varje SDK. Se:
 
 Kräver version 1.5.4.
 
-[!DNL Analytics] kunder kan hämta VisitorAPI.js-biblioteket från [!DNL Code Manager]. Den finns i JavaScript-filerna (Nytt) eller JavaScript-filerna (äldre). Kontakta [kundtjänst](https://helpx.adobe.com/marketing-cloud/contact-support.html) om du inte har tillgång till [!DNL Code Manager].
+[!DNL Analytics] kunder kan hämta VisitorAPI.js-biblioteket från  [!DNL Code Manager]. Den finns i JavaScript-filerna (Nytt) eller JavaScript-filerna (äldre). Kontakta [kundtjänst](https://helpx.adobe.com/marketing-cloud/contact-support.html) om du inte har tillgång till [!DNL Code Manager].
 
 **Målbibliotek**
 
