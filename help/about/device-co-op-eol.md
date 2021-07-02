@@ -1,9 +1,9 @@
 ---
 keywords: adobe experience cloud cloud;Adobe Experience Cloud;device co-op;Device Co-op;end of life
-solution: Adobe Experience Cloud
 title: Device Co-op - frågor och svar om upphörande av livscykel
 description: Läs mer om slutversionsplanerna för Device Co-op.
-source-git-commit: b9e21ba2f749b7a4ad69c122e2273b7f3309da58
+exl-id: 015ba95c-0c8d-415e-969c-b8670494de98
+source-git-commit: c19e8425d5d6c2498186c19929907d2ee5327b31
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 1%
