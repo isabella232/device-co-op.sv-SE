@@ -3,9 +3,9 @@ keywords: adobe experience cloud cloud;Adobe Experience Cloud;device co-op;Devic
 title: Device Co-op - frågor och svar om upphörande av livscykel
 description: Läs mer om slutversionsplanerna för Device Co-op.
 exl-id: 015ba95c-0c8d-415e-969c-b8670494de98
-source-git-commit: 8896718ce5fec25cb72f7a2a5ccb4573433e0bb1
+source-git-commit: 952fe1bc73efd99812f3f2950b009ff8dcd83ae1
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1053'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,10 @@ De kommande ändringarna i AdTech-miljön förväntas resultera i [!DNL Device C
 ## Varför slutar Adobe [!DNL Device Co-op] registreringar nu?
 
 Registreringar upphör för att förhindra risken för att inte uppfylla kundernas förväntningar på grund av kommande branschförändringar kring cookies från tredje part. [!DNL Device Co-op] tar några månader att förbereda och ytterligare några månader att extrahera värdet från tjänsten. Ytterligare registreringar kan leda till att varumärken inte får det fulla värdet av [!DNL Device Co-op].
+
+## Den 27 juli 2022 meddelade Google att man fördröjt borttagningen av cookies från tredje part i Chrome till 2024. Kommer detta att påverka [!DNL Device Co-op] EOL-planer?
+
+Nej, Adobe [!DNL Device Co-op] EOL-planerna fortsätter att vara desamma och kommer inte att förlängas.
 
 ## Kan nya kunder anmäla sig?
 
