@@ -3,9 +3,9 @@ keywords: adobe experience cloud cloud;Adobe Experience Cloud;device co-op;Devic
 title: Device Co-op - frågor och svar om upphörande av livscykel
 description: Läs mer om slutversionsplanerna för Device Co-op.
 exl-id: 015ba95c-0c8d-415e-969c-b8670494de98
-source-git-commit: 952fe1bc73efd99812f3f2950b009ff8dcd83ae1
+source-git-commit: ab45f8f54046a31e60223a36c374dc99dc968d7c
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1079'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ Från och med 11 juni 2021 kommer Adobe inte längre att förnya [!DNL Device Co
 
 ## Vad är det exakta slutdatumet för [!DNL Device Co-op] program?
 
-The [!DNL Device Co-op] Programmet avslutas 2022. Den specifika tidpunkten och datumet beror på när [!DNL Google] börjar blockera cookies från tredje part.
+The [!DNL Device Co-op] Programmet avslutas 2022. Den specifika tidpunkten och datumet beror på när [!DNL Google] börjar blockera cookies från tredje part. Avvecklingsarbetet förväntas börja i september 2022.
 
 ## Vilka program kommer att påverkas av Device Co-op?
 
@@ -59,7 +59,7 @@ Du kan använda [!DNL Analytics] [Enhetsövergripande analys (CDA)](https://expe
 
 ### [!DNL Audience Manager]
 
-[!DNL Audience Manager] behåller integreringar med tredjeparts partner för enhetsgrafer, inklusive [!DNL LiveRamp] och [!DNL Tapad]även om du måste etablera kommersiella relationer direkt med diagrampartners för att kunna utnyttja [!DNL Audience Manager].
+[!DNL Audience Manager] behåller integreringar med tredjeparts partner för enhetsgrafer, inklusive [!DNL LiveRamp] och [!DNL Tapad]även om du måste etablera kommersiella relationer direkt med diagrampartners för att kunna utnyttja [!DNL Audience Manager]. Alla kunder förväntas uppdatera samverkansregler för profilsammanslagning för att kunna utnyttja andra alternativ än [!DNL Device Co-op.]
 
 ### [!DNL Real-time Customer Data Platform]
 
