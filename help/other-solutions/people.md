@@ -1,17 +1,16 @@
 ---
 description: Personmåttet är antalet personer (eller grupper av enheter) baserat på Adobe Device Graph. Du kan använda personmåttet för att identifiera besökare på olika enheter i Analysis Workspace.
-seo-description: Personmåttet är antalet personer (eller grupper av enheter) baserat på Adobe Device Graph. Du kan använda personmåttet för att identifiera besökare på olika enheter i Analysis Workspace.
-seo-title: Personmått
+seo-description: The People metric is the count of people (or groups of devices) based on Adobe's Device Graph. You can apply the People metric to identify visitors across their devices in Analysis Workspace.
+seo-title: People metric
 title: Personmått
 uuid: 8e731779-044d-4d31-a19a-f579a9c8c471
-translation-type: tm+mt
-source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
+exl-id: e2e70461-19ab-49db-bd65-a3eb26c2d4a8
+source-git-commit: 573744525fcc00f35540af9ffec46530111940ed
 workflow-type: tm+mt
-source-wordcount: '1408'
-ht-degree: 1%
+source-wordcount: '1374'
+ht-degree: 2%
 
 ---
-
 
 # Personmått{#people-metric}
 
@@ -29,27 +28,27 @@ Personmåttet är antalet personer (eller grupper av enheter) baserat på Adobe 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Device Co-op </p> </td> 
-   <td colname="col2"> <p> Om du vill använda personmåttet blir du medlem i <a href="http://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html" format="html" scope="external"> Adobe Experience Cloud Device Co-op</a>. Samarbetet identifierar en persons flera enheter (eller Experience Cloud-ID). Analytics utnyttjar denna information för att statistiskt hämta antalet personer som interagerar med ett varumärke. Mätvärdet ligger inom 5 %. </p> <p><b>Områden</b>: Device Co-op är för närvarande endast tillgängligt i USA och Kanada. När du utvärderar personmätningen bör du därför tillämpa ett segment i analysen som filtrerar data enbart för USA och Kanada. </p> <p>Varje vecka beräknar Device Graph en ny version av co-op och publicerar den för användning. På tisdagar samlar systemet in de senaste data och publicerar en uppdaterad version av diagrammet. Experience Cloud-lösningarna använder sedan den senaste versionen av diagrammet. För Analytics är ändringarna inlästa på onsdagar och bearbetningen av ändringarna tar vanligtvis mellan 1 och 2 arbetsdagar. </p> <p> <p>Viktigt:  När diagrammet uppdateras varje vecka kan det påverka personmåttet historiskt. Med andra ord kan antalet personer ändras över tiden när diagrammet läses och uppdateras. Om du t.ex. kör en rapport i dag som räknar personer förra månaden och sedan kör samma rapport en vecka efter att diagrammet har uppdaterats, kan det historiska antalet personer ändras något. </p> </p> </td> 
+   <td colname="col2"> <p> Om du vill använda personmåttet blir du medlem i <a href="http://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html" format="html" scope="external"> Adobe Experience Cloud Device Co-op</a>. Samarbetet identifierar en persons flera enheter (eller Experience Cloud-ID). Analytics utnyttjar denna information för att statistiskt hämta antalet personer som interagerar med ett varumärke. Mätvärdet ligger inom 5 %. </p> <p><b>Regioner</b>: Device Co-op är för närvarande endast tillgängligt i USA och Kanada. När du utvärderar personmätningen bör du därför tillämpa ett segment i analysen som filtrerar data enbart för USA och Kanada. </p> <p>Varje vecka beräknar Device Graph en ny version av co-op och publicerar den för användning. På tisdagar samlar systemet in de senaste data och publicerar en uppdaterad version av diagrammet. Experience Cloud-lösningarna använder sedan den senaste versionen av diagrammet. För Analytics är ändringarna inlästa på onsdagar och bearbetningen av ändringarna tar vanligtvis mellan 1 och 2 arbetsdagar. </p> <p> <p>Viktigt: När diagrammet uppdateras varje vecka kan det påverka personmåttet historiskt. Med andra ord kan antalet personer ändras över tiden när diagrammet läses och uppdateras. Om du t.ex. kör en rapport i dag som räknar personer förra månaden och sedan kör samma rapport en vecka efter att diagrammet har uppdaterats, kan det historiska antalet personer ändras något. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Måttbehörigheter </td> 
-   <td colname="col2"> <p>Du kan bara använda personmåttet om du har beviljats åtkomst till det. Administratörer kan<a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/customize-report-access/groups-metrics.html" format="html" scope="external"> anpassa metadatabehörigheter</a> i administratörsverktygen. </p> </td> 
+   <td colname="col2"> <p>Du kan bara använda personmåttet om du har beviljats åtkomst till det. Administratörer kan<a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/customize-report-access/groups-metrics.html" format="html" scope="external"> anpassa behörigheter för mätvärden</a> i Admin Tools. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Mappa till IMS-organisation </td> 
-   <td colname="col2"> <p>Personmåttet aktiveras för alla rapportsviter som är <a href="https://docs.adobe.com/content/help/sv-SE/core-services/interface/about-core-services/report-suite-mapping.html" format="html" scope="external"> mappade till en IMSORG</a>. </p> </td> 
+   <td colname="col2"> <p>Personmåttet aktiveras för alla rapportsviter som <a href="https://docs.adobe.com/content/help/sv-SE/core-services/interface/about-core-services/report-suite-mapping.html" format="html" scope="external"> mappas till en IMSORG</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analysprojekt/verktyg </p> </td> 
-   <td colname="col2"> <p>Använd personmåttet i <span class="wintitle"> Analysis Workspace</span>, <span class="wintitle"> Ad Hoc Analysis</span>, <span class="wintitle"> Report Builder</span>och via API:t. Du kan använda den var du vill med de unika besökarvärdena, inklusive beräknade värden. </p> <p>Du kan till exempel skapa ett intäktsmått per person för att ersätta ett intäktsmått per unik besökarstatistik. </p> <p>Det finns en projektmall <a href="https://docs.adobe.com/content/help/sv-SE/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html" format="html" scope="external"> för</a> personer som du kan använda för att komma igång med personmätningen i Analysis Workspace. </p> </td> 
+   <td colname="col2"> <p>Använd personmåttet i <span class="wintitle"> Analysis Workspace</span>, <span class="wintitle"> Ad Hoc Analysis</span>, <span class="wintitle"> Report Builder</span>och via API:t. Du kan använda den var du vill med de unika besökarvärdena, inklusive beräknade värden. </p> <p>Du kan till exempel skapa ett intäktsmått per person för att ersätta ett intäktsmått per unik besökarstatistik. </p> <p>A <a href="https://docs.adobe.com/content/help/sv-SE/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html" format="html" scope="external"> Projektmall för personer</a> finns för att komma igång med personmätaren i Analysis Workspace. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aktivera robotregler </p> </td> 
-   <td colname="col2"> <p>Adobe rekommenderar att du aktiverar <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-rules.html" format="html" scope="external"> Punktregler</a>, särskilt när du använder personmåttet. </p> <p>När en robot crawlar din webbplats ökar antalet unika besökare på ett artificiellt sätt. Genom att ta bort robottrafiken från rapportsviten får du en exaktare mätning av aktiviteten på dina digitala resurser, både i unika besökare och i personvyn. </p> <p>Om du vill göra det går du till <span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Report Suites</span>. Välj rätt rapportserie och gå sedan till <span class="uicontrol"> Redigera inställningar</span> &gt; <span class="uicontrol"> Allmänt</span> &gt; <span class="uicontrol"> PUNKTregler</span>. </p> </td> 
+   <td colname="col2"> <p>Adobe rekommenderar att du aktiverar <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-rules.html" format="html" scope="external"> Punktregler</a>, särskilt när du använder personmåttet. </p> <p>När en robot crawlar din webbplats ökar antalet unika besökare på ett artificiellt sätt. Genom att ta bort robottrafiken från rapportsviten får du en exaktare mätning av aktiviteten på dina digitala resurser, både i unika besökare och i personvyn. </p> <p>Om du vill göra det går du till <span class="uicontrol"> Analyser</span> &gt; <span class="uicontrol"> Administratör</span> &gt; <span class="uicontrol"> Rapportsviter</span>. Välj rätt rapportsvit och gå sedan till <span class="uicontrol"> Redigera inställningar</span> &gt; <span class="uicontrol"> Allmänt</span> &gt; <span class="uicontrol"> Punktregler</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Segmentering </p> </td> 
-   <td colname="col2"> <p> När du använder segment med personmåttet kan måttrapporteringen bli betydligt lägre än förväntat. </p> <p>Se <a href="../other-solutions/people.md#section-d03525420dbe48379fd95b230ef05885" format="dita" scope="local"> Använda personmätaren med segment</a>. </p> </td> 
+   <td colname="col2"> <p> När du använder segment med personmåttet kan måttrapporteringen bli betydligt lägre än förväntat. </p> <p>Se <a href="../other-solutions/people.md#section-d03525420dbe48379fd95b230ef05885" format="dita" scope="local"> Använda personmått med segment</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -115,7 +114,7 @@ I det här exemplet antar vi att det finns en fast uppsättning besökare. Om du
 
 ## Använda personmått med segment {#section-d03525420dbe48379fd95b230ef05885}
 
-När du använder segment med personmåttet kan mätresultaten bli betydligt lägre än förväntat. Detta problem uppstår eftersom det inte finns någon *`person`* behållare i segmenteringen. Segmenteringen använder besökarbehållaren, som är den högsta behållaren i definitionen och som är baserad på enheten, inte på personen.
+När du använder segment med personmåttet kan mätresultaten bli betydligt lägre än förväntat. Detta problem uppstår eftersom det inte finns något *`person`* behållare. Segmenteringen använder besökarbehållaren, som är den högsta behållaren i definitionen och som är baserad på enheten, inte på personen.
 
 Det här problemet uppstår främst när du staplar segment med personmåttet.
 
@@ -123,8 +122,8 @@ Det här problemet uppstår främst när du staplar segment med personmåttet.
 
 Med staplingssegment skapas ett nytt segment som representerar kombinationen av segmenten. Staplingssegment skapas när du:
 
-* Placera ett segment ovanpå ett annat segment i Analysis Workspace. (Dessa kopplas automatiskt med hjälp av *`And`* operatorn .)
-* Använd ett segment som innehåller *`And`* operatorn.
+* Placera ett segment ovanpå ett annat segment i Analysis Workspace. (Dessa kopplas automatiskt med *`And`* -operator.)
+* Använd ett segment som innehåller *`And`* -operator.
 * Använd ett segment på både projektnivå och tabellnivå.
 * Använd en virtuell rapportsvit med ett annat segment.
 
@@ -135,9 +134,9 @@ Anta till exempel att du placerar följande segment i personmåttet:
 
 Endast antalet personer som är kvalificerade i båda segmenten *`using a single device`* räknas. (Personmåttet visar inte antalet kvalificerade personer på olika enheter.)
 
-Du bör inte heller använda operatorn *`Or`* i den här situationen. Om du gör det skulle antalet personer som såg det ena eller det andra räknas, och det går inte att räkna hur många som kvalificerar sig för båda segmenten.
+Med *`Or`* -operatorn rekommenderas inte i den här situationen. Om du gör det skulle antalet personer som såg det ena eller det andra räknas, och det går inte att räkna hur många som kvalificerar sig för båda segmenten.
 
-Mer information finns i [Skapa segment](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html) i segmenteringshjälpen.
+Se [Bygga segment](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html) i segmenteringshjälpen för mer information.
 
 ## Enhetstyper {#section-8ab378c84ff34574b9c20fecb3848a86}
 
@@ -153,7 +152,6 @@ Device Co-op kräver att dina digitala egenskaper är instrumenterade med tjäns
 mcdc-people-metric-apply.xml
 -->
 
-I Analysis Workspace skapar du ett [projekt](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html)och drar sedan **[!UICONTROL People]** måttet till projekttabellen:
+Skapa en [projekt](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html)och sedan dra **[!UICONTROL People]** mått till projekttabellen:
 
 ![](assets/people-metric.png)
-
